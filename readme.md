@@ -93,8 +93,6 @@ This project evolved in two stages: first, building a robust automation system, 
 *   **Mimicking Human Decision-Making:** Simple fine-tuned models can be brittle on ambiguous, boundary-case problems. To solve this, a 3-agent system was designed, where a **Fine-Tuned Model (Initial Review) + RAG (Case Search) + LLM (Final Judgment)** collaborate to make a decision.
 *   **Breakthrough Performance:** This agent-based approach dramatically improved judgment accuracy on complex cases, boosting the overall system's **F1-Score from a baseline of 0.7045 to 0.9639**. This represents an **88% reduction in the error rate** compared to the standalone fine-tuned model on challenging data.
 
-*(Insert your F1-Score comparison graph here. Ensure labels are in English.)*
-![F1-Score Comparison](path/to/your/f1_score_comparison_graph.png)
 
 ---
 
@@ -168,5 +166,3 @@ This project is licensed under the **MIT License**. See the `LICENSE` file for d
 ## Author
 *   **Harim Choi (HarimxChoi)**
 *   **Email:** 2.harim.choi@gmail.com
-*   **LinkedIn:** 
-*   **Medium:** 
