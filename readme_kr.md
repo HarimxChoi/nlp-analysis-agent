@@ -1,6 +1,6 @@
 [**English**](readme.md) | [**한국어**](readme_kr.md)
 
-# Bid-Analysis-Agent
+# nlp-analysis-agent
 
 ![Project Status](https://img.shields.io/badge/Status-Completed-success)
 ![F1 Score](https://img.shields.io/badge/F1_Score-0.964-blue)
