@@ -1,6 +1,6 @@
  [**English**](readme.md) | [**한국어**](readme_kr.md)
 
-# 🤖 Bid-Analysis-Agent: An End-to-End AI System
+# nlp-analysis-agent: An End-to-End AI System
 
 ![Project Status](https://img.shields.io/badge/Status-Completed-success)
 ![F1 Score](https://img.shields.io/badge/Agent_F1_Score-0.964-blue)
