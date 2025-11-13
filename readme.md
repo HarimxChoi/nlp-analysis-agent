@@ -7,7 +7,7 @@
 ![Tech Stack](https://img.shields.io/badge/Tech-PyTorch_|_Transformers_|_LangGraph-orange)
 ![Deployment](https://img.shields.io/badge/Deployment-FastAPI_|_ONNX-purple)
 
-An End-to-End AI agent system for Korean public procurement analysis, achieving a 96.4% F1-score by leveraging a fine-tuned RoBERTa, RAG, and LLMs. This project demonstrates a full-cycle development process from ideation and data collection to model optimization and API deployment.
+An End-to-End AI agent system for public procurement analysis, achieving a 96.4% F1-score by leveraging a fine-tuned RoBERTa, RAG, and LLMs. This project demonstrates a full-cycle development process from ideation and data collection to model optimization and API deployment.
 
 <!-- A GIF showcasing the Agent System or the final API in action would go here. -->
 
