@@ -1,0 +1,64 @@
+{
+    "construction_management": [
+        "construction_management",
+        "architecture_supervision",
+        "electrical_comm_fire_supervision",
+        "railway_supervision"
+    ],
+    "transportation": [
+        "transportation_planning_system_design",
+        "traffic_safety_inspection",
+        "traffic_impact_assessment"
+    ],
+    "structural": [
+        "structural_design",
+        "structural_safety_inspection"
+    ],
+    "road": [
+        "road_design"
+    ],
+    "urban_planning": [
+        "urban_planning_land_development_design"
+    ],
+    "water_environment": [
+        "water_supply_design",
+        "technical_inspection",
+        "facility_operation_management"
+    ],
+    "water_resources": [
+        "water_resources_river_design",
+        "disaster_impact_assessment",
+        "water_resources_safety_inspection"
+    ],
+    "hydropower": [
+        "hydropower_design"
+    ],
+    "landscape": [
+        "landscape_forestry_design"
+    ],
+    "geotechnical": [
+        "geotechnical_tunnel_design",
+        "soil_survey"
+    ],
+    "railway": [
+        "railway_design",
+        "railway_supervision",
+        "railway_track_safety_inspection"
+    ],
+    "plant": [
+        "electrical_comm_fire_supervision",
+        "electrical_comm_design",
+        "power_impact_assessment"
+    ],
+    "harbor": [
+        "harbor_design",
+        "harbor_safety_inspection"
+    ],
+    "environmental_assessment": [
+        "environmental_design",
+        "environmental_impact_assessment"
+    ],
+    "architecture": [
+        "architectural_design"
+    ]
+}

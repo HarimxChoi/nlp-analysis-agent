@@ -1,0 +1,55 @@
+# Datasets and trained artifacts (intentionally not committed)
+data/
+trained_model/
+multiclass_model/
+final_quantized_onnx_models/
+vector_db/
+output/
+results/
+testResults*/
+augmented_model.onnx
+final_prediction_output.csv
+experiment_log.log
+*.xlsx
+*.parquet
+*.csv
+*.pt
+*.bin
+*.safetensors
+*.onnx
+*.pkl
+
+# Fonts
+*.ttf
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+*.key
+
+# Logs
+*.log
