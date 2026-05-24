@@ -1,5 +1,7 @@
 # nlp-analysis-agent
 
+English | [한국어](./README.ko.md)
+
 Korean public procurement notice NLP — bidability + category classification with weak supervision.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
