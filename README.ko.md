@@ -61,13 +61,13 @@ python 10_serve.py
 
 ## Key implementation notes
 
-- `UltimateTrainer`는 FocalLoss + R-Drop (dual forward KL) + FGM adversarial perturbation을 LoRA fine-tuning 위에 얹은 구조.
-- 약라벨링은 SBERT (general Korean)와 fine-tuned RoBERTa (domain)를 per-label max-sim으로 ensemble. 최빈 카테고리에 대해서는 hard-rule override layer를 둠.
-- Static INT8 quantization은 `optimum-cli export onnx` 후 `ORTQuantizer.fit(...)`으로 calibration sample 200개에 대해 실행. per-tensor (non per-channel) AVX512-VNNI config 사용.
+- `UltimateTrainer`: LoRA fine-tuning 위에 FocalLoss + R-Drop (dual forward KL) + FGM adversarial perturbation을 얹음.
+- 약라벨링은 SBERT (general Korean) + fine-tuned RoBERTa (domain)를 per-label max-sim으로 ensemble. 최빈 카테고리에는 hard-rule override layer 추가.
+- Static INT8 quantization은 `optimum-cli export onnx` 후 `ORTQuantizer.fit(...)`으로 calibration sample 200개 돌림. per-tensor (non per-channel), AVX512-VNNI config.
 
 ## Repository note
 
-코드와 파이프라인 구조만 공개함. 학습된 모델 weight와 학습 데이터는 의도적으로 포함하지 않음. 특정 조달 데이터셋과 도메인 라벨링에서 파생된 자산이라 그렇다.
+코드와 파이프라인 구조만 공개함. 학습된 모델 weight, 학습 데이터는 의도적으로 제외. 특정 조달 데이터셋과 도메인 라벨링에서 파생된 자산임.
 
 ## License
 
